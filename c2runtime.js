@@ -20917,6 +20917,8 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.layoutwidth,
 	cr.system_object.prototype.cnds.Else,
 	cr.system_object.prototype.acts.Wait,
+	cr.system_object.prototype.cnds.TriggerOnce,
+	cr.plugins_.GoogleAnalytics_ST.prototype.acts.TrackEvent,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.system_object.prototype.acts.Scroll,
 	cr.behaviors.Platform.prototype.cnds.IsOnFloor,
@@ -20928,10 +20930,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.viewportbottom,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.cnds.IsGroupActive,
+	cr.system_object.prototype.cnds.CompareBetween,
 	cr.plugins_.GoogleAnalytics_ST.prototype.acts.TrackTimeStop,
 	cr.plugins_.GoogleAnalytics_ST.prototype.acts.TrackEventEx,
-	cr.system_object.prototype.cnds.CompareBetween,
-	cr.system_object.prototype.cnds.TriggerOnce,
 	cr.plugins_.Twitter.prototype.acts.SetText,
 	cr.plugins_.Twitter.prototype.acts.Reload,
 	cr.plugins_.Twitter.prototype.acts.SetVisible,
@@ -20953,7 +20954,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet.prototype.acts.SetEnabled,
 	cr.behaviors.jumpthru.prototype.acts.SetEnabled,
 	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.plugins_.GoogleAnalytics_ST.prototype.acts.TrackTimeStart,
-	cr.plugins_.GoogleAnalytics_ST.prototype.acts.TrackEvent
+	cr.plugins_.GoogleAnalytics_ST.prototype.acts.TrackTimeStart
 ];};
 
